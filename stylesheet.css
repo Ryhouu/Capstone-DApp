@@ -1,0 +1,41 @@
+/* Define a class for the first font */
+.font1 {
+    Text-align:center;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 35px; 
+    color: black; 
+}
+
+/* Define a class for the second font */
+.font2 {
+    font-family: 'Lora', serif; 
+    font-size: 18px; 
+    color: black; 
+}
+
+/* Define style for first button*/
+.red-button {
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	background-color: green;
+}
+
+/* Define styles for headings */
+h2 {
+    font-weight: bold; /* Make the headings bold */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    margin-bottom: 18px; /* Add a margin bottom */
+}
+
+/* Define style for body*/
+body {
+	text-align: center;
+	background-color: rgb(150, 182, 193);
+}
+
+/* img padding*/
+img {
+	padding: 18px;
+	border: 2px solid #8B0000;
+}
