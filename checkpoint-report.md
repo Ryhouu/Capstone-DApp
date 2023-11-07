@@ -6,7 +6,7 @@
 
 ## Introduction
 
-==[TODO: intro paragraph]==
+	As the world of digital commerce continues to expand, the need for reliable and secure escrow services has become increasingly apparent. Traditional methods have often fallen short in ensuring equitable and unbiased transactions between buyers and sellers, leaving room for fraud and disputes. In response to these challenges, we present "SecureArt," a decentralized smart contract application designed to provide a solution that is both technologically advanced and trust-enhancing. In this era of burgeoning interest in decentralized platforms and the remarkable growth of blockchain technology, our initiative is well-positioned to address the demand for a fair and secure escrow system. SecureArt leverages well-defined functions and consensus mechanisms, allowing users to interact via MetaMask Wallets, verify transactions, and protect themselves from malicious behaviors and potential attacks. To simulate transaction requests and cryptocurrency, Sepolia Faucet and testnet ETH were employed, while a React frontend and NodeJS/Express server were used to create an intuitive UI/UX. With SecureArt, we aim to revolutionize the digital art marketplace by offering a reliable and decentralized escrow system, setting a new standard for trust and security in the digital art industry.
 
 ### Literature Review
 
@@ -22,13 +22,19 @@
 
   ### Data Description
 
-==[TODO: description of relevant data]==
+  In the context of the SecureArt project, our primary focus revolves around understanding and utilizing various types of data crucial for the    operation of our decentralized escrow system. The below are the data components in our dataset:
+	
+	Ethereum (ETH): It will be an int type data containing the total amount of the transaction, including gas fee.
 
-> - If you’re in a methods-focused domain (that is, a domain in which you’re developing new methods), you should describe the kinds of data that your methods are applicable to. For instance, if you’re developing methods for using convolutional neural networks with graphs, you should describe why graph-based data is useful in the real-world.
+	Transactions: A str type data indicating whether this is a "sell" or "buy" transaction
 
-Describe data in blocks? 
+	User Accounts: A str type data containing the User ID that made the transaction
+	
+	Gas: A str type of data indicating the gas fee of the transaction (in ETH).
+	
+	Item : An int type of data containing the Item ID of the transaction made.
 
-How do ETH, transactions, accounts, gas, clients work as data?
+	Clients:  A str type data indicating the client name.
 
 
 
